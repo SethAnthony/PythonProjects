@@ -17,7 +17,7 @@ while True:
     windowSurfaceObj.fill(redColor)
     if speed < 1:
         speed = 1
-    
+    #yeah right!
     if x + speed*xdir < 0 :
         x = 0
         xdir *= -1
