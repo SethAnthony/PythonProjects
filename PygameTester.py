@@ -46,7 +46,7 @@ while True:
         ydir *= -1
     else:
         y += speed*ydir
-        
+    #THIS IS A GITHUB TEST
     pygame.draw.rect(windowSurfaceObj, blueColor, (x, y, 50,50))
     pygame.draw.rect(windowSurfaceObj, blueColor, (mousex - 5, mousey - 5, 10, 10))
     for event in pygame.event.get():
